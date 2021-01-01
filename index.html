@@ -20,8 +20,8 @@
         font-size: 1rem;
       }
       footer {
-          margin-bottom: 1rem;
-          margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
       }
       a {
         text-decoration: none;
@@ -37,6 +37,8 @@
       .max-width-img {
         width: var(--page-width);
         display: inline-block;
+        border-radius: 6px;
+        filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.3));
       }
     </style>
   </head>
@@ -47,7 +49,7 @@
         <h1 style="display: inline">Parable of Alien Chess</h1>
 
         <h5 style="display: inline; margin-left: 15px">
-          by <a href="https://lukesmith.xyz/index.html">Luke Smith</a>
+          by <a target="_blank" href="https://lukesmith.xyz/index.html">Luke Smith</a>
         </h5>
 
         <p>
@@ -255,6 +257,7 @@
           In
           <i
             ><a
+              target="_blank"
               href="https://traffic.libsyn.com/secure/notrelated/S02E01_-_Against_Method_and_For_Pseudoscience.ogg"
               >Against Method</a
             ></i
@@ -309,18 +312,10 @@
     <footer>
       <div class="container">
         <a href="https://lukesmith.xyz/index.html"
-          ><img
-            style="height: 1em"
-            src="./img/home.svg"
-          />
-          Luke's Homepage</a
+          ><img style="height: 1em" src="./img/home.svg" /> Luke's Homepage</a
         >
         <a href="https://lukesmith.xyz/donate.html" style="float: right"
-          ><img
-            style="height: 1em"
-            src="./img/donate.svg"
-          />
-          Donate</a
+          ><img style="height: 1em" src="./img/donate.svg" /> Donate</a
         >
       </div>
     </footer>
