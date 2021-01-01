@@ -11,8 +11,8 @@ I undestand that Luke wants to keep everything minimal, but this is just going t
 
 ## What I've changed
 - text occupies about 30% of the screen, so your eyes don't have to jump all over the place while reading,
-- increased space between lines, making the text less crammed,
-- changes font to sans serif. I personally don't like the default serif font, and using font front Google Fonts is, well, probably out of the question,
+- increased spacing between lines, making the text less crammed,
+- changes font to sans serif. I personally don't like the default serif font, and using one of Google Fonts is, well, probably out of the question,
 - dark theme,
-- images are not just floating to the right, they now in a more logical place
+- images are not just floating to the right, they now in more logical places
 - I've added roughly 20 lines CSS and slighly changed HTML
